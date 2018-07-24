@@ -24,3 +24,7 @@ android:
   - extra
   licenses:
   - android-sdk-license-.+
+
+script: 
+- npm run ci
+- cd android && ./gradlew assembleRelease
