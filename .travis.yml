@@ -24,3 +24,5 @@ android:
   - extra
   licenses:
   - android-sdk-license-.+
+
+script: ./gradlew connectedAndroidTest
